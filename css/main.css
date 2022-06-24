@@ -10,6 +10,11 @@ h1, h2, h3, h4 {
 	color: black;
 }
 
+h2{
+	margin: 0;
+	padding: 0;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
@@ -143,6 +148,10 @@ h4{
 	justify-content: space-between;
 }
 
+.details h3{
+	margin-top: 0;
+}
+
 .details__heading{
 	margin-left: 100px;
 }
@@ -153,3 +162,200 @@ h4{
 	margin-bottom: 47px;
 }
 
+.flats{
+	display: flex;
+	flex-direction: column;
+/*	justify-content: space-between;
+*/
+	padding-top: 93px;
+}
+
+.flat{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 45px;
+	align-items: center;
+}
+
+.flat__text{
+	margin-left: 100px;
+}
+
+.flat__text h3{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 130%;
+	margin-bottom: 30px;
+}
+
+.flat__text p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	width: 382px;
+}
+
+.flat__text button {
+	color: white;
+	padding: 18px 17px;
+	background-color: black;
+	border-radius: 2px;
+	border: none;
+	margin-top: 30px;
+}
+
+.flat__img{
+	margin-right: 100px;
+	width: 500px;
+}
+
+.flat2{
+	flex-direction: row-reverse;
+}
+
+.flat__text2{
+	margin-left: 0;
+	margin-right: 100px;
+}
+
+.flat__img2{
+	margin-right: 0;
+/*	margin-left: 100px;
+*/
+/*так как я верстаю по макету, а в макете ошибка колоночной сетки, то оставляю с ошибкой. Чтобы совпадал дизайн
+*/
+/*по-хорошему, переделать бы, но у меня нету доступа к исходнику
+*/}
+
+.choice{
+	display: flex;
+	justify-content: space-between;
+	padding: 86px 0 68px 0;
+}
+
+.choice__heading{
+	margin-left: 100px;
+}
+
+/*.choice__heading h2{
+	margin: 0;
+	padding: 0;
+}*/
+
+.choice__filter{
+	margin-right: 206px;
+}
+
+.choice__type{
+	padding-bottom: 40px;
+}
+
+.choice__type h3{
+	margin: 0 0 12px 0;
+}
+
+.choice__type .type a{
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(2, 29, 61, 0.8);
+}
+
+.type p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-top: 12px;
+}
+
+.choice__flex{
+	display: flex;
+}
+
+.type-margin{
+	margin-right: 30px;
+}
+
+.sign{
+	padding: 92px 0 134px 0;
+}
+
+.sign-header{
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.sign-header h2{
+	margin-left: 100px;
+}
+
+.sign-header p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	letter-spacing: 0.03em;
+	margin-left: 93px;
+	width: 293px;
+}
+
+.sign-bottom{
+	display: flex;
+	justify-content: space-between;
+}
+
+.sign-number{
+	margin-left: 100px;
+}
+
+.sign-number__tel{
+		margin-bottom: 30px;
+}
+
+.sign-number__tel a{
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.sign-number__email{
+	margin-bottom: 65px;
+}
+
+.sign-number__email a{
+	color: black;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	letter-spacing: 0.03em;
+}
+
+.sign-form button{
+	padding: 18px 69px;
+	background-color: black;
+	border-radius: 2px;
+	color: white;
+	border: none;
+	margin-top: 60px;
+}
+
+.upper input{
+	width: 220px;
+	text-decoration: underline;
+	color: rgba(0, 0, 0, 0.5);;
+}
+
+.sign-last{
+	width: 293px;
+	margin-left: 100px;
+}
+
+.basement{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
